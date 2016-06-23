@@ -56,6 +56,8 @@ void push() {
     {
           printf("Enter the element to be inserted");
           scanf("%d",&item); //reading an item
+          top=top+1;
+          stack[top]=item;
        } 
    }
 ```
